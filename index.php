@@ -10,6 +10,8 @@
     <h1>Kalkulator Sederhana</h1>
         <input type="text" id="display" class="display" value="" disabled>
         <div class="buttons">
+            
+        </div>
     </div>
 </body>
 </html>
