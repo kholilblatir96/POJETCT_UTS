@@ -21,6 +21,12 @@
                 <button type="button" class="btn" onclick="appendValue('6')">6</button>
                 <button type="button" class="btn" onclick="appendValue('-')">-</button>
 
+                <button type="button" class="btn" onclick="appendValue('7')">7</button>
+                <button type="button" class="btn" onclick="appendValue('8')">8</button>
+                <button type="button" class="btn" onclick="appendValue('9')">9</button>
+                <button type="button" class="btn" onclick="appendValue('*')">*</button>
+
+
 
         </div>
     </div>
