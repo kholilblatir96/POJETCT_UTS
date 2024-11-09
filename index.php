@@ -31,9 +31,7 @@
                 <button type="button" class="btn" onclick="clearDisplay()">C</button>
                 <button type="button" class="btn" onclick="appendValue('/')">/</button>
 
-
-
-
+                <button type="submit" class="btn" name="submit">=</button>
         </div>
     </div>
     <script src="script.js"></script>
