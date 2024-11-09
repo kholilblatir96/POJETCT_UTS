@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Kalkulator</title>
 </head>
 <body>
     <div class="container">
@@ -14,8 +15,8 @@
                 <button type="button" class="btn" onclick="appendValue('2')">2</button>
                 <button type="button" class="btn" onclick="appendValue('3')">3</button>
                 <button type="button" class="btn" onclick="appendValue('+')">+</button>
-
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
