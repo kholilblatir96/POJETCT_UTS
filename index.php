@@ -26,6 +26,12 @@
                 <button type="button" class="btn" onclick="appendValue('9')">9</button>
                 <button type="button" class="btn" onclick="appendValue('*')">*</button>
 
+                <button type="button" class="btn" onclick="appendValue('0')">0</button>
+                <button type="button" class="btn" onclick="appendValue('.')">.</button>
+                <button type="button" class="btn" onclick="clearDisplay()">C</button>
+                <button type="button" class="btn" onclick="appendValue('/')">/</button>
+
+
 
 
         </div>
