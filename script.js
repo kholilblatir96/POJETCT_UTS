@@ -13,4 +13,9 @@ function calculateResult() {
     const xhr = new XMLHttpRequest();
     xhr.open('POST', '', true); // Send data to the current PHP file
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-    xhr.onload = function ()
+    xhr.onload = function () {
+        if (xhr.status === 200) {
+            // Update the display with the result from PHP
+            document.getElementById('display').value = xhr.responseText;
+        }
+    };
