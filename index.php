@@ -24,14 +24,15 @@ function evaluateExpression($expression) {
 </head>
 <body>
     <div class="container">
-    <h1>Kalkulator Sederhana</h1>
-        <input type="text" id="display" class="display" value="" disabled>
-        <div class="buttons">
+        <h1>Kalkulator Sederhana</h1>
+        <form method="POST" action="index.php">
+            <input type="text" name="input" id="display" class="display" value="<?php echo isset($result) ? $result : ''; ?>" readonly>
+            <div class="buttons">
                 <button type="button" class="btn" onclick="appendValue('1')">1</button>
                 <button type="button" class="btn" onclick="appendValue('2')">2</button>
                 <button type="button" class="btn" onclick="appendValue('3')">3</button>
                 <button type="button" class="btn" onclick="appendValue('+')">+</button>
-                
+
                 <button type="button" class="btn" onclick="appendValue('4')">4</button>
                 <button type="button" class="btn" onclick="appendValue('5')">5</button>
                 <button type="button" class="btn" onclick="appendValue('6')">6</button>
@@ -48,7 +49,8 @@ function evaluateExpression($expression) {
                 <button type="button" class="btn" onclick="appendValue('/')">/</button>
 
                 <button type="submit" class="btn" name="submit">=</button>
-        </div>
+            </div>
+        </form>
     </div>
     <script src="script.js"></script>
 </body>
