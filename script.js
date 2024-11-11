@@ -19,3 +19,5 @@ function calculateResult() {
             document.getElementById('display').value = xhr.responseText;
         }
     };
+    xhr.send('input=' + encodeURIComponent(expression)); // Send the expression to PHP
+}
