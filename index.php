@@ -1,3 +1,19 @@
+<?php
+if (isset($_POST['submit'])) {
+    $input = $_POST['input'];
+    $result = evaluateExpression($input);
+}
+
+function evaluateExpression($expression) {
+    // Menangani perhitungan dengan eval
+    try {
+        return eval("return $expression;");
+    } catch (Exception $e) {
+        return 'Error';
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
