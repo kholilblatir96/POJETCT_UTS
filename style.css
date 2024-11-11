@@ -55,3 +55,6 @@ button:hover {
     background-color: #45a049;
 }
 
+button:active {
+    background-color: #388e3c;
+}
