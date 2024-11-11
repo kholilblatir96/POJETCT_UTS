@@ -57,6 +57,7 @@ button:hover {
 
 button:active {
     background-color: #388e3c;
+}
 
 
 button:disabled {
