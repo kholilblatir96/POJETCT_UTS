@@ -40,6 +40,14 @@ h1 {
     gap: 10px;
 }
 
-
-
+button {
+    background-color: #4CAF50;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
 
